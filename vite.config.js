@@ -7,6 +7,7 @@ export default defineConfig({
   alias: {
     // Add this alias if necessary
     'react-icons': 'node_modules/react-icons',
-    base : "/Portfolio_Main/",
+    
   },
+  base : "/Portfolio_Main/",
 })
