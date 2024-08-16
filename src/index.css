@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .raleway-100 {
+    font-weight: 100;
+  }
+
+  .raleway-200 {
+    font-weight: 200;
+  }
+
+  .raleway-300 {
+    font-weight: 300;
+  }
+
+  .raleway-400 {
+    font-weight: 400;
+  }
+
+  .raleway-500 {
+    font-weight: 500;
+  }
+
+  .raleway-600 {
+    font-weight: 600;
+  }
+
+  .raleway-700 {
+    font-weight: 700;
+  }
+
+  .raleway-800 {
+    font-weight: 800;
+  }
+
+  .raleway-900 {
+    font-weight: 900;
+  }
+}
