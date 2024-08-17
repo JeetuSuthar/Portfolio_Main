@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import {Link} from "react-scroll";
+import Footer from './components/Footer'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
      <Experience/>
      <Contact/>
      <SocialLinks/>
+     <Footer/>
 
     
     </>
