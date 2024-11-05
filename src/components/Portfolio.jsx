@@ -6,35 +6,49 @@ import drum from '../assets/portfolio/drum.png';
 import todo from '../assets/portfolio/todo.png';
 import netflix from '../assets/portfolio/netflix.png';
 import simon from '../assets/portfolio/simonGame.png';
+import movie from '../assets/portfolio/movie.png';
+import dental from '../assets/portfolio/doctor.png';
+
+
 
 const portfolios = [
   {
     id: 1,
+    src: movie,
+    title: 'Movie Web',
+  },
+  {
+    id: 2,
+    src: dental,
+    title: 'Dental Clinic ',
+  },
+  {
+    id: 3,
     src: todo,
     title: 'Todo List',
   },
   {
-    id: 2,
+    id: 4,
     src: netflix,
     title: 'Netflix Clone',
   },
   {
-    id: 3,
+    id: 5,
     src: simon,
     title: 'Simon Game',
   },
   {
-    id: 4,
+    id: 6,
     src: dice,
     title: 'Dice Game',
   },
   {
-    id: 5,
+    id: 7,
     src: drum,
     title: 'Drum Kit',
   },
   {
-    id: 6,
+    id: 8,
     src: tindog,
     title: 'Tindog',
   },
@@ -44,7 +58,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 text-white md:h-screen md:py-5 md:pb-[200px]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center h-full w-full">
         <div className="pb-8">

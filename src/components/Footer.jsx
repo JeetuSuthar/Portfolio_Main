@@ -6,12 +6,10 @@ import { SiLeetcode } from 'react-icons/si';
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-gray-600 text-white py-4'>
+    <footer className='w-full  bg-black text-white py-4 fixed bottom-0 left-0 sm:relative'>
       <div className='container mx-auto text-center'>
-        {/* Footer Content */}
-        
         {/* Social Links for Mobile */}
-        <div className='flex justify-center space-x-4 lg:hidden '>
+        <div className='flex justify-center space-x-4 lg:hidden'>
           <a href='https://linkedin.com' target='_blank' rel='noreferrer' className='text-white hover:opacity-75'>
             <FaLinkedin size={30} />
           </a>
